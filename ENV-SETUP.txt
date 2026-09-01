@@ -1,0 +1,41 @@
+# Copy this file to .env.local and fill in your own values.
+# .env.local is already git-ignored — never commit real secrets.
+
+# ---- Database (required to enable saving) ----
+# Until this is set, the site still runs fine using its built-in default
+# content (read-only) — the admin panel will show a banner explaining
+# that saving is disabled.
+# Get a free connection string from MongoDB Atlas: https://www.mongodb.com/cloud/atlas
+MONGODB_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority
+
+# Optional — defaults to "enough_is_enough" if not set.
+MONGODB_DB=enough_is_enough
+
+# ---- Admin login ----
+# Password for the /admin panel. Defaults to "eie-admin-2026" if not
+# set — change this before going live.
+ADMIN_PASSWORD=change-this-password
+
+# Secret used to sign the admin login session cookie. Set this to a long
+# random string in production (e.g. `openssl rand -hex 32`) so sessions
+# can't be forged and existing sessions invalidate on rotation.
+ADMIN_SESSION_SECRET=change-this-to-a-long-random-string
+
+# ---- Email notifications (optional) ----
+# When set, an email is sent to ADMIN_EMAIL every time someone submits
+# the contact form, newsletter signup, or fund application form, and a
+# short confirmation is sent back to the person who submitted it.
+# Leave these blank to skip email — submissions still save to the
+# database and appear in the admin panel either way.
+#
+# Any standard SMTP provider works here — Gmail (use an App Password,
+# not your normal password), Microsoft 365, SendGrid, Mailgun, Amazon
+# SES, or your hosting provider's SMTP relay.
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-app-password
+# Address(es) that receive form notifications — comma-separate for more than one.
+ADMIN_EMAIL=you@yourdomain.com
+# What recipients see as the "From" address. Defaults to SMTP_USER if not set.
+EMAIL_FROM=Enough Is Enough Foundation <your-email@gmail.com>

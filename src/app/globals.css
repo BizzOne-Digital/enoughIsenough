@@ -1,0 +1,281 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #1E3A8A;
+  --secondary: #EC4899;
+  --background: #FFFFFF;
+  --foreground: #0f172a;
+  --muted: #64748b;
+  --surface: #f8fafc;
+  --glass: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.35);
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --font-sans: var(--font-ui);
+  --font-content: var(--font-content-family);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-content-family), "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1.0625rem;
+  font-feature-settings: "kern" 1, "liga" 1, "onum" 1;
+  line-height: 1.75;
+  letter-spacing: 0.015em;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headlines — Cormorant Garamond */
+.font-display {
+  font-family: var(--font-display), "Times New Roman", Georgia, serif;
+  letter-spacing: -0.025em;
+  font-feature-settings: "kern" 1, "liga" 1, "dlig" 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), "Times New Roman", Georgia, serif;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+/* Body content — Crimson Pro */
+.font-content {
+  font-family: var(--font-content-family), "Palatino Linotype", Georgia, serif;
+  letter-spacing: 0.015em;
+  line-height: 1.75;
+}
+
+p, li, blockquote, .prose-content {
+  font-family: var(--font-content-family), "Palatino Linotype", Georgia, serif;
+}
+
+/* UI chrome — Source Sans 3 */
+.font-sans,
+button,
+input,
+textarea,
+select,
+label,
+nav {
+  font-family: var(--font-ui), "Segoe UI", system-ui, sans-serif;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+}
+
+.font-elegant {
+  font-family: var(--font-ui), system-ui, sans-serif;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.6875rem;
+}
+
+/* Long-form reading */
+.prose-content {
+  font-size: 1.125rem;
+  line-height: 1.85;
+  color: var(--foreground);
+}
+
+.prose-content p + p {
+  margin-top: 1.25em;
+}
+
+.prose-content em,
+.prose-content i {
+  font-style: italic;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--primary) 25%, transparent);
+}
+
+/* Mesh gradient backgrounds */
+.mesh-gradient {
+  background:
+    radial-gradient(at 20% 20%, color-mix(in srgb, var(--primary) 12%, transparent) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, color-mix(in srgb, var(--secondary) 10%, transparent) 0px, transparent 45%),
+    radial-gradient(at 60% 100%, color-mix(in srgb, var(--primary) 8%, transparent) 0px, transparent 50%),
+    var(--background);
+}
+
+.mesh-gradient-dark {
+  background:
+    radial-gradient(at 15% 25%, color-mix(in srgb, var(--secondary) 18%, transparent) 0px, transparent 45%),
+    radial-gradient(at 85% 15%, color-mix(in srgb, var(--primary) 25%, transparent) 0px, transparent 50%),
+    linear-gradient(135deg, var(--primary) 0%, color-mix(in srgb, var(--primary) 85%, black) 100%);
+}
+
+/* Glass morphism */
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.55);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Animated gradient border */
+.gradient-border {
+  position: relative;
+  background: white;
+  border-radius: 1.25rem;
+}
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Shimmer loading */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Float animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(2deg); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+  will-change: transform;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-20px) scale(1.02); }
+}
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Pulse glow */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px color-mix(in srgb, var(--secondary) 30%, transparent); }
+  50% { box-shadow: 0 0 40px color-mix(in srgb, var(--secondary) 50%, transparent); }
+}
+.pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
+/* Grid pattern overlay */
+.grid-pattern {
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--primary) 4%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--primary) 4%, transparent) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--primary) 40%, transparent);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Card hover lift */
+.card-lift {
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease;
+}
+.card-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px -12px color-mix(in srgb, var(--primary) 20%, transparent);
+}
+
+/* Respect the visitor's motion preference: stop every infinite/looping
+   CSS animation instead of running it for the life of the page. Framer
+   Motion transitions still play once (mount/unmount, hover), just
+   without the perpetual float/pulse/marquee loops. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-float-slow,
+  .pulse-glow,
+  .shimmer {
+    animation: none !important;
+  }
+  .animate-marquee {
+    animation-duration: 120s !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Consistent, visible keyboard-focus ring across interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Noise texture overlay */
+.noise::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}

@@ -1,0 +1,425 @@
+{
+  "theme": {
+    "primary": "#1E3A8A",
+    "secondary": "#EC4899",
+    "background": "#FFFFFF"
+  },
+  "siteName": "Enough Is Enough Foundation",
+  "tagline": "Lifting you up to walk into your destiny",
+  "home": {
+    "heroHeadline": "The truth is not established by man, but by God. We here to lift you up and walk into your destiny.",
+    "heroSubheadline": "Our mission is to help you to overcome whatever obstacles that you are facing, but it all starts with you. We will celebrate you.",
+    "missionStatement": "Empowering individuals and communities through faith-based life coaching, mentorship, and transformative programs.",
+    "heroImage": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80",
+    "lifeCoachName": "Sharon Bedford",
+    "lifeCoachTitle": "Professional Life Coach",
+    "lifeCoachBio": "Sharon Bedford works tirelessly to ensure follow-through on commitments to a better life and personal accountability. With compassion and dedication, she guides individuals through life's challenges, helping them discover their God-given purpose and walk confidently into their destiny.",
+    "lifeCoachImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+    "heroBadge": "Faith • Community • Transformation"
+  },
+  "about": {
+    "title": "About Us",
+    "missionTitle": "Our Mission",
+    "missionText": "The Enough Is Enough Foundation is dedicated to helping individuals overcome life's obstacles through faith, community support, and professional life coaching. We believe that transformation starts from within, and we are here to celebrate every step of your journey toward a better life.",
+    "overviewTitle": "Who We Are",
+    "overviewText": "Founded on the principle that everyone deserves a chance to thrive, our foundation provides comprehensive programs for men and women seeking purpose, accountability, and community. Through grants and community contributions, we make our services accessible to those who need them most.",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80",
+    "values": [
+      {
+        "title": "Faith First",
+        "description": "Rooted in God's truth as the foundation for all transformation.",
+        "icon": "cross"
+      },
+      {
+        "title": "Accountability",
+        "description": "Personal commitment and follow-through drive lasting change.",
+        "icon": "target"
+      },
+      {
+        "title": "Community",
+        "description": "No one walks alone — we celebrate every victory together.",
+        "icon": "users"
+      },
+      {
+        "title": "Empowerment",
+        "description": "Equipping individuals to discover and walk in their destiny.",
+        "icon": "sparkles"
+      }
+    ]
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Transformative programs designed to empower, educate, and elevate",
+    "pricingNote": "Contact for pricing — Funds are provided by community contributions and grants.",
+    "items": [
+      {
+        "id": "1",
+        "title": "Men Of Hope",
+        "tag": "Mentorship",
+        "description": "A comprehensive mentorship program empowering men to overcome challenges, build accountability, and discover their God-given purpose through community support and faith-based guidance.",
+        "longDescription": "Men Of Hope is our flagship mentorship program designed specifically for men seeking purpose, accountability, and community. Through weekly sessions, one-on-one coaching, and group fellowship, participants build the foundation for lasting transformation.",
+        "features": [
+          "Weekly mentorship sessions",
+          "Accountability partnerships",
+          "Faith-based guidance",
+          "Community support network",
+          "Life skills workshops"
+        ],
+        "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+        "icon": "users"
+      },
+      {
+        "id": "2",
+        "title": "How Much Do You Know",
+        "tag": "Education",
+        "description": "An educational initiative designed to expand knowledge, build awareness, and foster personal growth through interactive workshops and community learning experiences.",
+        "longDescription": "How Much Do You Know challenges participants to expand their horizons through interactive workshops, community learning experiences, and awareness-building sessions that foster personal and collective growth.",
+        "features": [
+          "Interactive workshops",
+          "Community learning",
+          "Awareness building",
+          "Knowledge assessments",
+          "Group discussions"
+        ],
+        "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
+        "icon": "book-open"
+      },
+      {
+        "id": "3",
+        "title": "When All of God's Children Gets Together",
+        "tag": "Unity",
+        "description": "A unity-focused community program bringing people together across backgrounds to foster understanding, fellowship, and collective empowerment through faith.",
+        "longDescription": "This unity-focused program brings people together across all backgrounds to foster understanding, fellowship, and collective empowerment. Through faith-centered gatherings and community events, we celebrate what happens when God's children come together.",
+        "features": [
+          "Community unity events",
+          "Cross-cultural fellowship",
+          "Faith-centered gatherings",
+          "Collective empowerment",
+          "Shared meals & worship"
+        ],
+        "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80",
+        "icon": "heart-handshake"
+      },
+      {
+        "id": "4",
+        "title": "Connecting to My RIB",
+        "tag": "Personal Growth",
+        "description": "A personal development program helping individuals connect with their inner strength, relationships, identity, and beliefs to build a foundation for lasting transformation.",
+        "longDescription": "Connecting to My RIB helps individuals connect with their inner strength, Relationships, Identity, and Beliefs. This holistic program builds a foundation for lasting personal transformation through guided self-discovery.",
+        "features": [
+          "Self-discovery sessions",
+          "Relationship building",
+          "Identity exploration",
+          "Belief system alignment",
+          "Personal action plans"
+        ],
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+        "icon": "link"
+      },
+      {
+        "id": "5",
+        "title": "Women Of Destiny",
+        "tag": "Empowerment",
+        "description": "Empowering women to embrace their calling, overcome obstacles, and walk confidently into their destiny through mentorship, support groups, and faith-centered coaching.",
+        "longDescription": "Women Of Destiny empowers women to embrace their calling and walk confidently into their destiny. Through mentorship circles, support groups, and faith-centered coaching, participants discover their purpose and overcome life's obstacles.",
+        "features": [
+          "Women's mentorship circles",
+          "Support group sessions",
+          "Destiny coaching",
+          "Celebration events",
+          "Leadership development"
+        ],
+        "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80",
+        "icon": "sparkles"
+      },
+      {
+        "id": "6",
+        "title": "Housing for Men Of Hope",
+        "tag": "Housing",
+        "description": "Providing safe, supportive housing solutions for men participating in the Men Of Hope program, creating a stable foundation for personal growth and community reintegration.",
+        "longDescription": "Our Housing for Men Of Hope program provides safe, supportive housing for men in the Men Of Hope mentorship program. Stable housing creates the foundation needed for personal growth, accountability, and successful community reintegration.",
+        "features": [
+          "Safe housing solutions",
+          "Supportive environment",
+          "Program integration",
+          "Life skills support",
+          "Community reintegration"
+        ],
+        "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
+        "icon": "home"
+      }
+    ]
+  },
+  "specialOffers": {
+    "title": "Special Offers",
+    "subtitle": "Resources and forms to support your journey",
+    "description": "Access downloadable forms and special program resources designed to help you take the next step in your personal and professional development.",
+    "formTitle": "Job Application Fund Forms",
+    "formDescription": "Download and complete the Job Application Fund Forms to apply for financial assistance with job-related expenses. Our team is here to help you succeed in your career journey."
+  },
+  "blog": {
+    "title": "Blog & News",
+    "subtitle": "Community updates, life coaching insights, and inspiring stories",
+    "posts": [
+      {
+        "id": "1",
+        "title": "Finding Your Purpose Through Faith",
+        "featured": true,
+        "readTime": "5 min read",
+        "excerpt": "Discover how faith-based life coaching can help you uncover your God-given purpose and walk confidently into your destiny.",
+        "content": "At Enough Is Enough Foundation, we believe that every person has a unique purpose designed by God...",
+        "category": "Life Coaching",
+        "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80",
+        "date": "2026-07-15",
+        "author": "Sharon Bedford"
+      },
+      {
+        "id": "2",
+        "title": "Men Of Hope: Building Stronger Communities",
+        "excerpt": "Learn about our Men Of Hope program and how it's transforming lives through mentorship and accountability.",
+        "content": "The Men Of Hope program continues to make a significant impact in our community...",
+        "category": "Community News",
+        "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+        "date": "2026-06-28",
+        "author": "Robert Johnson"
+      },
+      {
+        "id": "3",
+        "title": "Women Of Destiny: Celebrating Success Stories",
+        "excerpt": "Read inspiring stories from women who have transformed their lives through our Women Of Destiny program.",
+        "content": "This month, we celebrate the incredible journeys of women who have embraced their destiny...",
+        "category": "Success Stories",
+        "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80",
+        "date": "2026-06-10",
+        "author": "Benita Thomas"
+      },
+      {
+        "id": "4",
+        "title": "Community Grant Update: Expanding Our Reach",
+        "excerpt": "Thanks to community contributions and grants, we're expanding our programs to serve more families in need.",
+        "content": "We are thrilled to announce that new grant funding will allow us to expand our housing program...",
+        "category": "Community News",
+        "image": "https://images.unsplash.com/photo-1559027615-cd4628908978?w=800&q=80",
+        "date": "2026-05-22",
+        "author": "Benita Thomas"
+      },
+      {
+        "id": "5",
+        "title": "The Power of Personal Accountability",
+        "excerpt": "Sharon Bedford shares insights on how personal accountability leads to lasting life transformation.",
+        "content": "Personal accountability is the cornerstone of meaningful change. When we commit to ourselves...",
+        "category": "Life Coaching",
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+        "date": "2026-05-08",
+        "author": "Sharon Bedford"
+      },
+      {
+        "id": "6",
+        "title": "Unity in Faith: When All of God's Children Gets Together",
+        "excerpt": "Highlights from our recent community unity event bringing people together across all backgrounds.",
+        "content": "Our latest unity gathering was a powerful reminder of what happens when God's children come together...",
+        "category": "Events",
+        "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80",
+        "date": "2026-04-18",
+        "author": "Matthew Lovett"
+      }
+    ]
+  },
+  "contact": {
+    "phone": "(855) 264-9103",
+    "email": "info@enoughisenoughfoundation.com",
+    "hours": "Monday thru Saturday, 9 AM - 5 PM",
+    "instagram": "https://instagram.com",
+    "facebook": "https://facebook.com",
+    "google": "https://google.com",
+    "address": "Serving communities nationwide with faith-based programs and life coaching"
+  },
+  "boardMembers": [
+    {
+      "id": "founder-frank",
+      "name": "Pastor Frank Bedford",
+      "title": "President & Owner",
+      "image": "/team/frank-bedford.jpg",
+      "bio": "Pastor Frank Bedford is a devoted husband, father, and man after God's own heart. He and his wife, Sharon, have five children — Jonquila, Serenia, Keshia, Kendall, and Travis — along with 14 grandchildren and 3 great-grandchildren.\n\nA pastor for more than 20 years, Frank currently leads four congregations: Freewill Baptist Church (1st Sunday), New Zion Baptist Church (2nd Sunday), Oak Grove Baptist Church (3rd Sunday), and Bargeron Grove Baptist Church (4th Sunday), and works closely with Greenwood Baptist Church and several others. He also serves as an Assistant Moderator and stays active leading revivals and playing music, an area in which he has received numerous awards.\n\nFrank attended school in Sylvania and works within the state prison system as a correctional officer, where he is well respected by the inmates he serves. He also serves as a counselor through the CGRA program and completed his training in Forsyth, Georgia.\n\nKnown for his humor as much as his seriousness about the Kingdom of God, Frank is a teacher, preacher, and musician who will never compromise God's Word. He loves to travel and has a heart for children. As President and Owner, Frank is leading the effort to establish Enough Is Enough Foundation as a fully recognized 501(c)(3) nonprofit serving the community.",
+      "isLeadership": true
+    },
+    {
+      "id": "founder-sharon",
+      "name": "Sharon Bedford",
+      "title": "Assistant Director & Owner",
+      "image": "/team/sharon-bedford.jpg",
+      "bio": "Sharon has been married to Pastor Frank Bedford for 8 years. Together they have five children — Jonquila, Serenia, Keshia, Kendall, and Travis — 14 grandchildren, and 3 great-grandchildren.\n\nGod was not finished with Sharon yet. He allowed her to birth Enough Is Enough Foundation, which she and Frank are working to establish as a 501(c)(3) nonprofit, and she is looking forward to serving the community.\n\nSharon is the author of “You Broke My Crayon” and a magazine titled “Brilliant.” She attended school throughout Statesboro before heading to Athens to study Criminal Justice at the University of Georgia. While there, she met her best friend, Benita, and became godmother to two beautiful girls, Taneka and Sharmeka.\n\nSharon has always kept a pen in her hand, believing words carry real power. Nearly 30 years ago she accepted Jesus Christ as her Lord and Savior and answered His calling on her life; she is a born-again, baptized believer known to many as Minister Sharon.\n\nAfter two years in Athens, Sharon returned home due to a family emergency. She went on to spend 16 years at the Grinnell plant — known locally as “Big Nasty” — until it closed, then worked as a contractor for FedEx before returning to college. She later earned her Bachelor's degree in Criminal Justice from Grace Bible College Theological Seminary, receiving the gold key and the Delta Epsilon Tau emblem along the way.\n\nSharon is happily married to her soulmate, Frank, and together they lead Enough Is Enough Foundation as Owners.",
+      "isLeadership": true
+    },
+    {
+      "id": "robert-johnson",
+      "name": "Pastor Robert L. Johnson Jr.",
+      "title": "Chair",
+      "image": "/team/robert-johnson.jpg",
+      "bio": "Reverend Robert L. Johnson Jr. was raised in the admonition of the Lord by his mother, Mabel Johnson, and his father, the late Reverend R. L. Johnson Sr., who resided in Millen, Georgia. He received his high school education at E.C.I. in Twin City, Georgia.\n\nReverend Johnson served his country as a member of the United States Army. He is also deeply grateful for his position with the Appling County School System, which allows him to minister to young people from a variety of ethnic backgrounds. His wife of 14 years, Shanette A. Johnson, is also a teacher, at Metter Elementary School in Candler County, Georgia. Together they have five children — Raven (18), Robert III (25), Latavius (31), and Cortnei (32) — and five grandchildren.\n\nReverend Johnson is the pastor of Thankful New Jersey Missionary Baptist Church in Baxley, Georgia, a role he takes great pleasure in. A devotee of the Word and a well-read individual, he holds a Bachelor of Science degree in Theology from Andersonville Theological Seminary and a Master of Arts degree in Christian Studies from Luther Rice College and Seminary. He is currently pursuing a Doctor of Ministry in Leadership at Columbia International University.\n\nReverend Johnson is a meek servant of the Lord Jesus Christ who intends to maintain Jesus as the focal point of all his actions and words. He derives great satisfaction from his participation in community outreach and the dissemination of the Word of God to the people of God.",
+      "isLeadership": true
+    },
+    {
+      "id": "2",
+      "name": "Matthew Lovett",
+      "title": "Asst. Chair",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+      "bio": "Supporting strategic initiatives and community outreach programs.",
+      "isLeadership": true
+    },
+    {
+      "id": "3",
+      "name": "Shelia Fitts",
+      "title": "Office Manager",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80",
+      "bio": "Ensuring smooth operations and excellent service for all participants."
+    },
+    {
+      "id": "4",
+      "name": "Benita Thomas",
+      "title": "Grant Finder",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+      "bio": "Securing funding to expand programs and serve more community members."
+    },
+    {
+      "id": "5",
+      "name": "Benji Jackson",
+      "title": "Board Member",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+      "bio": "Contributing expertise in community development and mentorship."
+    },
+    {
+      "id": "6",
+      "name": "A J Tremble",
+      "title": "Board Member",
+      "image": "https://images.unsplash.com/photo-1519081900918-4e1a2e4e4b5c?w=400&q=80",
+      "bio": "Advocating for program expansion and participant success."
+    },
+    {
+      "id": "7",
+      "name": "Jermaine Williams",
+      "title": "Board Member",
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80",
+      "bio": "Bringing passion for youth mentorship and community engagement."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Marcus Williams",
+      "role": "Men Of Hope Graduate",
+      "quote": "This foundation didn't just change my life — it gave me a purpose. Sharon and the team held me accountable and celebrated every step forward.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+      "rating": 5
+    },
+    {
+      "id": "2",
+      "name": "Angela Rivers",
+      "role": "Women Of Destiny Participant",
+      "quote": "Women Of Destiny helped me rediscover who I am in Christ. The community support here is unlike anything I've experienced.",
+      "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200&q=80",
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "name": "David Thompson",
+      "role": "Life Coaching Client",
+      "quote": "Sharon Bedford's coaching gave me the tools to overcome obstacles I thought were impossible. I finally feel like I'm walking into my destiny.",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
+      "rating": 5
+    },
+    {
+      "id": "4",
+      "name": "Patricia Coleman",
+      "role": "Community Member",
+      "quote": "The Enough Is Enough Foundation is a beacon of hope. Their programs are funded by love, grants, and genuine care for people.",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+      "rating": 5
+    }
+  ],
+  "stats": [
+    {
+      "id": "1",
+      "value": 500,
+      "suffix": "+",
+      "label": "Lives Transformed"
+    },
+    {
+      "id": "2",
+      "value": 6,
+      "suffix": "",
+      "label": "Core Programs"
+    },
+    {
+      "id": "3",
+      "value": 15,
+      "suffix": "+",
+      "label": "Years of Service"
+    },
+    {
+      "id": "4",
+      "value": 98,
+      "suffix": "%",
+      "label": "Client Satisfaction"
+    }
+  ],
+  "faqs": [
+    {
+      "id": "1",
+      "question": "How do I enroll in a program?",
+      "answer": "Contact us by phone at (855) 264-9103 or fill out our contact form. Our team will schedule an intake session to match you with the right program."
+    },
+    {
+      "id": "2",
+      "question": "Are your services free?",
+      "answer": "Many of our programs are funded through community contributions and grants. Contact us for pricing details — we work to make services accessible to all who need them."
+    },
+    {
+      "id": "3",
+      "question": "What is life coaching with Sharon Bedford?",
+      "answer": "Sharon provides professional faith-based life coaching focused on personal accountability, follow-through on commitments, and helping you walk into your God-given destiny."
+    },
+    {
+      "id": "4",
+      "question": "Do you offer housing assistance?",
+      "answer": "Yes! Our Housing for Men Of Hope program provides safe, supportive housing for men participating in the Men Of Hope mentorship program."
+    },
+    {
+      "id": "5",
+      "question": "How can I support the foundation?",
+      "answer": "You can support us through community contributions, volunteering, or spreading the word about our programs. Contact us to learn about partnership opportunities."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "1",
+      "year": "2010",
+      "title": "Foundation Established",
+      "description": "Enough Is Enough Foundation was founded with a vision to lift individuals through faith-based community support."
+    },
+    {
+      "id": "2",
+      "year": "2013",
+      "title": "Men Of Hope Launched",
+      "description": "Our flagship mentorship program for men was introduced, creating lasting community impact."
+    },
+    {
+      "id": "3",
+      "year": "2016",
+      "title": "Women Of Destiny",
+      "description": "Expanded services to empower women through mentorship, support groups, and faith-centered coaching."
+    },
+    {
+      "id": "4",
+      "year": "2019",
+      "title": "Housing Program",
+      "description": "Launched Housing for Men Of Hope, providing stable foundations for personal growth and reintegration."
+    },
+    {
+      "id": "5",
+      "year": "2024",
+      "title": "Community Expansion",
+      "description": "Secured major grants to expand all six core programs and serve hundreds more families nationwide."
+    }
+  ]
+}
