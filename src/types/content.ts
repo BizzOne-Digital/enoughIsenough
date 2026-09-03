@@ -1,6 +1,10 @@
 export interface ThemeColors {
   primary: string;
   secondary: string;
+  /** Accent highlight color (yellow, by default) used for energetic pops —
+   *  badges, sparkles, gradient text, stat highlights. Optional so sites
+   *  saved before this field existed still merge in a sensible default. */
+  accent?: string;
   background: string;
 }
 

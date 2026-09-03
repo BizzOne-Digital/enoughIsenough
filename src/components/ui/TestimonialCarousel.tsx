@@ -72,7 +72,7 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
               <img
                 src={t.image}
                 alt={t.name}
-                className="h-14 w-14 rounded-full object-cover ring-2 ring-primary/20"
+                className="h-14 w-14 rounded-full object-cover object-top ring-2 ring-primary/20"
               />
               <div className="text-left">
                 <p className="font-semibold text-gray-900">{t.name}</p>

@@ -29,7 +29,7 @@ export default function BoardMemberCard({ member, index }: BoardMemberCardProps)
           <img
             src={member.image}
             alt={member.name}
-            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+            className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/20 to-transparent" />
           <div className="absolute inset-x-0 bottom-0 p-5">
@@ -59,24 +59,26 @@ export default function BoardMemberCard({ member, index }: BoardMemberCardProps)
               animate={{ scale: 1, y: 0 }}
               exit={{ scale: 0.95, y: 20 }}
               onClick={(e) => e.stopPropagation()}
-              className="relative flex max-h-[85vh] w-full max-w-md flex-col overflow-hidden rounded-3xl bg-white shadow-2xl"
+              className="relative flex max-h-[90vh] w-full max-w-3xl flex-col overflow-hidden rounded-3xl bg-white shadow-2xl md:max-h-[80vh] md:flex-row"
             >
-              <div className="relative h-48 shrink-0">
+              <button
+                type="button"
+                onClick={() => setExpanded(false)}
+                className="absolute right-4 top-4 z-10 flex h-9 w-9 items-center justify-center rounded-full bg-white/20 text-white backdrop-blur-md md:bg-black/30"
+                aria-label="Close"
+              >
+                <X className="h-4 w-4" />
+              </button>
+
+              <div className="relative h-80 shrink-0 bg-gray-100 sm:h-96 md:h-auto md:w-2/5">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={member.image} alt={member.name} className="h-full w-full object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                <button
-                  type="button"
-                  onClick={() => setExpanded(false)}
-                  className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full bg-white/20 text-white backdrop-blur-md"
-                  aria-label="Close"
-                >
-                  <X className="h-4 w-4" />
-                </button>
+                <img src={member.image} alt={member.name} className="h-full w-full object-cover object-top" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent md:hidden" />
               </div>
-              <div className="overflow-y-auto p-6">
-                <h3 className="font-display text-2xl font-bold text-gray-900">{member.name}</h3>
-                <p className="text-sm font-semibold text-secondary">{member.title}</p>
+
+              <div className="overflow-y-auto p-6 sm:p-8 md:w-3/5">
+                <h3 className="font-display text-2xl font-bold text-gray-900 sm:text-3xl">{member.name}</h3>
+                <p className="text-sm font-semibold text-secondary sm:text-base">{member.title}</p>
                 {member.bio && (
                   <div className="mt-4 space-y-3 leading-relaxed text-gray-600">
                     {member.bio.split(/\n{2,}/).map((paragraph, i) => (

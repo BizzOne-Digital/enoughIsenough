@@ -6,6 +6,7 @@ import { ArrowRight, Play, Sparkles } from "lucide-react";
 import Button from "@/components/ui/Button";
 import FloatingOrbs from "@/components/ui/FloatingOrbs";
 import AnimatedCounter from "@/components/ui/AnimatedCounter";
+import BrandMark from "@/components/ui/BrandMark";
 import { useContent } from "@/lib/content-store";
 
 export default function Hero() {
@@ -23,6 +24,7 @@ export default function Hero() {
     <section ref={ref} className="relative min-h-[90vh] overflow-hidden mesh-gradient">
       <FloatingOrbs />
       <div className="absolute inset-0 grid-pattern opacity-40" />
+      <BrandMark className="pointer-events-none absolute -right-24 -top-24 h-[28rem] w-[28rem] opacity-[0.07] sm:-right-16 sm:-top-16" />
 
       <motion.div style={{ opacity }} className="relative mx-auto flex min-h-[90vh] max-w-7xl flex-col justify-center px-4 py-20 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
@@ -32,7 +34,7 @@ export default function Hero() {
               animate={{ opacity: 1, scale: 1 }}
               className="inline-flex items-center gap-2 rounded-full glass px-4 py-2 font-elegant text-[11px] text-primary shadow-sm"
             >
-              <Sparkles className="h-4 w-4 text-secondary" />
+              <Sparkles className="h-4 w-4 text-accent" />
               {home.heroBadge || "Faith • Community • Transformation"}
             </motion.div>
 
@@ -121,10 +123,10 @@ export default function Hero() {
               <motion.div
                 animate={{ y: [0, 8, 0] }}
                 transition={{ duration: 5, repeat: Infinity }}
-                className="absolute -top-4 -right-4 rounded-2xl bg-secondary px-5 py-3 text-white shadow-xl"
+                className="absolute -top-4 -right-4 rounded-2xl bg-accent px-5 py-3 text-gray-900 shadow-xl"
               >
                 <p className="text-sm font-semibold">Professional Life Coaching</p>
-                <p className="text-xs text-white/80">Sharon Bedford</p>
+                <p className="text-xs text-gray-900/70">Sharon Bedford</p>
               </motion.div>
             </div>
           </motion.div>

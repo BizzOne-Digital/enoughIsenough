@@ -1273,15 +1273,16 @@ export default function AdminPanel() {
                 <h2 className="text-lg font-semibold">Theme Colors</h2>
                 {(
                   [
-                    ["Primary", "primary"],
-                    ["Secondary", "secondary"],
+                    ["Primary (Royal Blue)", "primary"],
+                    ["Secondary (Fuchsia)", "secondary"],
+                    ["Accent (Yellow)", "accent"],
                     ["Background", "background"],
                   ] as const
                 ).map(([label, key]) => (
                   <div key={key} className="flex items-center gap-4">
                     <input
                       type="color"
-                      value={draft.theme[key]}
+                      value={draft.theme[key] || "#FACC15"}
                       onChange={(e) => patch((p) => ({ ...p, theme: { ...p.theme, [key]: e.target.value } }))}
                       className="h-10 w-10 cursor-pointer rounded-lg border border-gray-200"
                     />
@@ -1289,7 +1290,7 @@ export default function AdminPanel() {
                       <label className={labelClass}>{label}</label>
                       <input
                         className={inputClass}
-                        value={draft.theme[key]}
+                        value={draft.theme[key] || ""}
                         onChange={(e) => patch((p) => ({ ...p, theme: { ...p.theme, [key]: e.target.value } }))}
                       />
                     </div>
@@ -1300,6 +1301,7 @@ export default function AdminPanel() {
                   <div className="mt-3 flex gap-3">
                     <div className="h-12 flex-1 rounded-lg" style={{ backgroundColor: draft.theme.primary }} />
                     <div className="h-12 flex-1 rounded-lg" style={{ backgroundColor: draft.theme.secondary }} />
+                    <div className="h-12 flex-1 rounded-lg" style={{ backgroundColor: draft.theme.accent || "#FACC15" }} />
                     <div className="h-12 flex-1 rounded-lg border" style={{ backgroundColor: draft.theme.background }} />
                   </div>
                 </div>

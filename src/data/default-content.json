@@ -1,7 +1,8 @@
 {
   "theme": {
-    "primary": "#1E3A8A",
-    "secondary": "#EC4899",
+    "primary": "#1E3AAE",
+    "secondary": "#D6249F",
+    "accent": "#FACC15",
     "background": "#FFFFFF"
   },
   "siteName": "Enough Is Enough Foundation",
