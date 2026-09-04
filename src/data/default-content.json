@@ -1,7 +1,7 @@
 {
   "theme": {
     "primary": "#1E3AAE",
-    "secondary": "#D6249F",
+    "secondary": "#AB1D7F",
     "accent": "#FACC15",
     "background": "#FFFFFF"
   },
@@ -16,7 +16,7 @@
     "lifeCoachTitle": "Professional Life Coach",
     "lifeCoachBio": "Sharon Bedford works tirelessly to ensure follow-through on commitments to a better life and personal accountability. With compassion and dedication, she guides individuals through life's challenges, helping them discover their God-given purpose and walk confidently into their destiny.",
     "lifeCoachImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
-    "heroBadge": "Faith • Community • Transformation"
+    "heroBadge": "Faith \u2022 Community \u2022 Transformation"
   },
   "about": {
     "title": "About Us",
@@ -38,7 +38,7 @@
       },
       {
         "title": "Community",
-        "description": "No one walks alone — we celebrate every victory together.",
+        "description": "No one walks alone \u2014 we celebrate every victory together.",
         "icon": "users"
       },
       {
@@ -51,7 +51,7 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Transformative programs designed to empower, educate, and elevate",
-    "pricingNote": "Contact for pricing — Funds are provided by community contributions and grants.",
+    "pricingNote": "Contact for pricing \u2014 Funds are provided by community contributions and grants.",
     "items": [
       {
         "id": "1",
@@ -241,7 +241,7 @@
       "name": "Pastor Frank Bedford",
       "title": "President & Owner",
       "image": "/team/frank-bedford.jpg",
-      "bio": "Pastor Frank Bedford is a devoted husband, father, and man after God's own heart. He and his wife, Sharon, have five children — Jonquila, Serenia, Keshia, Kendall, and Travis — along with 14 grandchildren and 3 great-grandchildren.\n\nA pastor for more than 20 years, Frank currently leads four congregations: Freewill Baptist Church (1st Sunday), New Zion Baptist Church (2nd Sunday), Oak Grove Baptist Church (3rd Sunday), and Bargeron Grove Baptist Church (4th Sunday), and works closely with Greenwood Baptist Church and several others. He also serves as an Assistant Moderator and stays active leading revivals and playing music, an area in which he has received numerous awards.\n\nFrank attended school in Sylvania and works within the state prison system as a correctional officer, where he is well respected by the inmates he serves. He also serves as a counselor through the CGRA program and completed his training in Forsyth, Georgia.\n\nKnown for his humor as much as his seriousness about the Kingdom of God, Frank is a teacher, preacher, and musician who will never compromise God's Word. He loves to travel and has a heart for children. As President and Owner, Frank is leading the effort to establish Enough Is Enough Foundation as a fully recognized 501(c)(3) nonprofit serving the community.",
+      "bio": "Pastor Frank Bedford is a devoted husband, father, and man after God's own heart. He and his wife, Sharon, have five children \u2014 Jonquila, Serenia, Keshia, Kendall, and Travis \u2014 along with 14 grandchildren and 3 great-grandchildren.\n\nA pastor for more than 20 years, Frank currently leads four congregations: Freewill Baptist Church (1st Sunday), New Zion Baptist Church (2nd Sunday), Oak Grove Baptist Church (3rd Sunday), and Bargeron Grove Baptist Church (4th Sunday), and works closely with Greenwood Baptist Church and several others. He also serves as an Assistant Moderator and stays active leading revivals and playing music, an area in which he has received numerous awards.\n\nFrank attended school in Sylvania and works within the state prison system as a correctional officer, where he is well respected by the inmates he serves. He also serves as a counselor through the CGRA program and completed his training in Forsyth, Georgia.\n\nKnown for his humor as much as his seriousness about the Kingdom of God, Frank is a teacher, preacher, and musician who will never compromise God's Word. He loves to travel and has a heart for children. As President and Owner, Frank is leading the effort to establish Enough Is Enough Foundation as a fully recognized 501(c)(3) nonprofit serving the community.",
       "isLeadership": true
     },
     {
@@ -249,7 +249,7 @@
       "name": "Sharon Bedford",
       "title": "Assistant Director & Owner",
       "image": "/team/sharon-bedford.jpg",
-      "bio": "Sharon has been married to Pastor Frank Bedford for 8 years. Together they have five children — Jonquila, Serenia, Keshia, Kendall, and Travis — 14 grandchildren, and 3 great-grandchildren.\n\nGod was not finished with Sharon yet. He allowed her to birth Enough Is Enough Foundation, which she and Frank are working to establish as a 501(c)(3) nonprofit, and she is looking forward to serving the community.\n\nSharon is the author of “You Broke My Crayon” and a magazine titled “Brilliant.” She attended school throughout Statesboro before heading to Athens to study Criminal Justice at the University of Georgia. While there, she met her best friend, Benita, and became godmother to two beautiful girls, Taneka and Sharmeka.\n\nSharon has always kept a pen in her hand, believing words carry real power. Nearly 30 years ago she accepted Jesus Christ as her Lord and Savior and answered His calling on her life; she is a born-again, baptized believer known to many as Minister Sharon.\n\nAfter two years in Athens, Sharon returned home due to a family emergency. She went on to spend 16 years at the Grinnell plant — known locally as “Big Nasty” — until it closed, then worked as a contractor for FedEx before returning to college. She later earned her Bachelor's degree in Criminal Justice from Grace Bible College Theological Seminary, receiving the gold key and the Delta Epsilon Tau emblem along the way.\n\nSharon is happily married to her soulmate, Frank, and together they lead Enough Is Enough Foundation as Owners.",
+      "bio": "Sharon has been married to Pastor Frank Bedford for 8 years. Together they have five children \u2014 Jonquila, Serenia, Keshia, Kendall, and Travis \u2014 14 grandchildren, and 3 great-grandchildren.\n\nGod was not finished with Sharon yet. He allowed her to birth Enough Is Enough Foundation, which she and Frank are working to establish as a 501(c)(3) nonprofit, and she is looking forward to serving the community.\n\nSharon is the author of \u201cYou Broke My Crayon\u201d and a magazine titled \u201cBrilliant.\u201d She attended school throughout Statesboro before heading to Athens to study Criminal Justice at the University of Georgia. While there, she met her best friend, Benita, and became godmother to two beautiful girls, Taneka and Sharmeka.\n\nSharon has always kept a pen in her hand, believing words carry real power. Nearly 30 years ago she accepted Jesus Christ as her Lord and Savior and answered His calling on her life; she is a born-again, baptized believer known to many as Minister Sharon.\n\nAfter two years in Athens, Sharon returned home due to a family emergency. She went on to spend 16 years at the Grinnell plant \u2014 known locally as \u201cBig Nasty\u201d \u2014 until it closed, then worked as a contractor for FedEx before returning to college. She later earned her Bachelor's degree in Criminal Justice from Grace Bible College Theological Seminary, receiving the gold key and the Delta Epsilon Tau emblem along the way.\n\nSharon is happily married to her soulmate, Frank, and together they lead Enough Is Enough Foundation as Owners.",
       "isLeadership": true
     },
     {
@@ -257,7 +257,7 @@
       "name": "Pastor Robert L. Johnson Jr.",
       "title": "Chair",
       "image": "/team/robert-johnson.jpg",
-      "bio": "Reverend Robert L. Johnson Jr. was raised in the admonition of the Lord by his mother, Mabel Johnson, and his father, the late Reverend R. L. Johnson Sr., who resided in Millen, Georgia. He received his high school education at E.C.I. in Twin City, Georgia.\n\nReverend Johnson served his country as a member of the United States Army. He is also deeply grateful for his position with the Appling County School System, which allows him to minister to young people from a variety of ethnic backgrounds. His wife of 14 years, Shanette A. Johnson, is also a teacher, at Metter Elementary School in Candler County, Georgia. Together they have five children — Raven (18), Robert III (25), Latavius (31), and Cortnei (32) — and five grandchildren.\n\nReverend Johnson is the pastor of Thankful New Jersey Missionary Baptist Church in Baxley, Georgia, a role he takes great pleasure in. A devotee of the Word and a well-read individual, he holds a Bachelor of Science degree in Theology from Andersonville Theological Seminary and a Master of Arts degree in Christian Studies from Luther Rice College and Seminary. He is currently pursuing a Doctor of Ministry in Leadership at Columbia International University.\n\nReverend Johnson is a meek servant of the Lord Jesus Christ who intends to maintain Jesus as the focal point of all his actions and words. He derives great satisfaction from his participation in community outreach and the dissemination of the Word of God to the people of God.",
+      "bio": "Reverend Robert L. Johnson Jr. was raised in the admonition of the Lord by his mother, Mabel Johnson, and his father, the late Reverend R. L. Johnson Sr., who resided in Millen, Georgia. He received his high school education at E.C.I. in Twin City, Georgia.\n\nReverend Johnson served his country as a member of the United States Army. He is also deeply grateful for his position with the Appling County School System, which allows him to minister to young people from a variety of ethnic backgrounds. His wife of 14 years, Shanette A. Johnson, is also a teacher, at Metter Elementary School in Candler County, Georgia. Together they have five children \u2014 Raven (18), Robert III (25), Latavius (31), and Cortnei (32) \u2014 and five grandchildren.\n\nReverend Johnson is the pastor of Thankful New Jersey Missionary Baptist Church in Baxley, Georgia, a role he takes great pleasure in. A devotee of the Word and a well-read individual, he holds a Bachelor of Science degree in Theology from Andersonville Theological Seminary and a Master of Arts degree in Christian Studies from Luther Rice College and Seminary. He is currently pursuing a Doctor of Ministry in Leadership at Columbia International University.\n\nReverend Johnson is a meek servant of the Lord Jesus Christ who intends to maintain Jesus as the focal point of all his actions and words. He derives great satisfaction from his participation in community outreach and the dissemination of the Word of God to the people of God.",
       "isLeadership": true
     },
     {
@@ -309,7 +309,7 @@
       "id": "1",
       "name": "Marcus Williams",
       "role": "Men Of Hope Graduate",
-      "quote": "This foundation didn't just change my life — it gave me a purpose. Sharon and the team held me accountable and celebrated every step forward.",
+      "quote": "This foundation didn't just change my life \u2014 it gave me a purpose. Sharon and the team held me accountable and celebrated every step forward.",
       "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
       "rating": 5
     },
@@ -373,7 +373,7 @@
     {
       "id": "2",
       "question": "Are your services free?",
-      "answer": "Many of our programs are funded through community contributions and grants. Contact us for pricing details — we work to make services accessible to all who need them."
+      "answer": "Many of our programs are funded through community contributions and grants. Contact us for pricing details \u2014 we work to make services accessible to all who need them."
     },
     {
       "id": "3",
