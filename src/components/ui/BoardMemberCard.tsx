@@ -29,7 +29,8 @@ export default function BoardMemberCard({ member, index }: BoardMemberCardProps)
           <img
             src={member.image}
             alt={member.name}
-            className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
+            style={{ objectPosition: member.imagePosition || "center top" }}
+            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/20 to-transparent" />
           <div className="absolute inset-x-0 bottom-0 p-5">
@@ -72,7 +73,12 @@ export default function BoardMemberCard({ member, index }: BoardMemberCardProps)
 
               <div className="relative h-80 shrink-0 bg-gray-100 sm:h-96 md:h-auto md:w-2/5">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={member.image} alt={member.name} className="h-full w-full object-cover object-top" />
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  style={{ objectPosition: member.imagePosition || "center top" }}
+                  className="h-full w-full object-cover"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent md:hidden" />
               </div>
 

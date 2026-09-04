@@ -110,10 +110,11 @@ nav {
 /* Mesh gradient backgrounds */
 .mesh-gradient {
   background:
-    radial-gradient(at 20% 20%, color-mix(in srgb, var(--primary) 20%, transparent) 0px, transparent 50%),
-    radial-gradient(at 80% 0%, color-mix(in srgb, var(--secondary) 18%, transparent) 0px, transparent 45%),
-    radial-gradient(at 60% 100%, color-mix(in srgb, var(--accent) 16%, transparent) 0px, transparent 50%),
-    var(--background);
+    radial-gradient(at 15% 15%, color-mix(in srgb, var(--primary) 38%, transparent) 0px, transparent 52%),
+    radial-gradient(at 85% 0%, color-mix(in srgb, var(--secondary) 34%, transparent) 0px, transparent 48%),
+    radial-gradient(at 60% 100%, color-mix(in srgb, var(--accent) 30%, transparent) 0px, transparent 55%),
+    radial-gradient(at 0% 100%, color-mix(in srgb, var(--secondary) 16%, transparent) 0px, transparent 45%),
+    linear-gradient(160deg, color-mix(in srgb, var(--primary) 6%, var(--background)) 0%, var(--background) 55%);
 }
 
 .mesh-gradient-dark {

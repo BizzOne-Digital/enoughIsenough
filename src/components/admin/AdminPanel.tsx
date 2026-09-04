@@ -769,6 +769,26 @@ export default function AdminPanel() {
                       inputClass={inputClass}
                       labelClass={labelClass}
                     />
+                    <div>
+                      <label className={labelClass}>Photo Position (fixes cropping — e.g. face cut off)</label>
+                      <select
+                        className={inputClass}
+                        value={member.imagePosition || "center top"}
+                        onChange={(e) =>
+                          patch((p) => {
+                            const boardMembers = [...p.boardMembers];
+                            boardMembers[i] = { ...member, imagePosition: e.target.value };
+                            return { ...p, boardMembers };
+                          })
+                        }
+                      >
+                        <option value="center top">Top-anchored (default)</option>
+                        <option value="center 25%">Show a little more below</option>
+                        <option value="center center">Centered</option>
+                        <option value="center 75%">Show much more below</option>
+                        <option value="center bottom">Bottom-anchored</option>
+                      </select>
+                    </div>
                     <textarea
                       className={inputClass}
                       rows={2}

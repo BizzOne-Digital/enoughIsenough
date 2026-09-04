@@ -19,6 +19,11 @@ export interface BoardMember {
    *  falls back to matching a known set of leadership titles for
    *  backward compatibility with existing content. */
   isLeadership?: boolean;
+  /** CSS object-position value for this member's photo (e.g. "center 15%",
+   *  "top", "center"). Lets a specific photo's crop be nudged up/down
+   *  without affecting every other member. Falls back to a sensible
+   *  top-anchored default when unset. */
+  imagePosition?: string;
 }
 
 export interface Service {

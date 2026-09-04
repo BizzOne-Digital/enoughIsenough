@@ -11,8 +11,10 @@ interface ButtonProps extends ComponentPropsWithoutRef<"button"> {
 }
 
 const variants: Record<ButtonVariant, string> = {
-  primary: "bg-primary text-white hover:bg-primary/90 shadow-md hover:shadow-lg",
-  secondary: "bg-secondary text-white hover:bg-secondary/90 shadow-md hover:shadow-lg",
+  primary:
+    "bg-gradient-to-r from-primary to-secondary text-white shadow-md shadow-primary/30 hover:shadow-xl hover:shadow-secondary/30 hover:scale-[1.03]",
+  secondary:
+    "bg-gradient-to-r from-secondary to-secondary/80 text-white shadow-md shadow-secondary/30 hover:shadow-xl hover:scale-[1.03]",
   outline: "border-2 border-primary text-primary hover:bg-primary hover:text-white",
   ghost: "text-primary hover:bg-primary/10",
 };
